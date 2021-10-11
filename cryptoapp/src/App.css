@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Monoton&family=Open+Sans:wght@600&display=swap");
+
 .App {
   text-align: center;
 }
@@ -7,16 +9,39 @@
   pointer-events: none;
 }
 
-#App-logo{
+#App-logo {
   height: 40vmin;
-  pointer-events: none; 
+  pointer-events: none;
   width: 40vmin;
   display: flex;
   margin-left: auto;
   margin-right: auto;
 }
-#banner{
- width:100%;
+#banner {
+  width: 100%;
+}
+
+#banner h1 {
+  font-size: 82px;
+  text-shadow: 2px 2px black;
+  font-family: 'Monoton', cursive;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+  margin-bottom: auto;
+    color: transparent;
+  background-image: linear-gradient(
+    to right,
+    #462523 0,
+    #cb9b51 22%,
+    #f6e27a 45%,
+    #f6f2c0 50%,
+    #f6e27a 55%,
+    #cb9b51 78%,
+    #462523 100%
+  );
+  -webkit-background-clip: text;
+  text-transform: uppercase;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -34,9 +59,9 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-  #App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#App-logo {
+  animation: App-logo-spin infinite 20s linear;
+}
 #App-header {
   background-color: #282c34;
   min-height: 100vh;
